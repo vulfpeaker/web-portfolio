@@ -1,0 +1,15 @@
+# local tooling
+.claude/
+
+# OS cruft
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# full-resolution screenshot originals — the deployed site uses the
+# converted assets/work/*.webp (1280px). Drop this line if you want the
+# originals versioned too; they add ~3.8 MB to every clone.
+assets/work/*.webp.png
+
+# project brief, not part of the deployed site
+PROMPT.md
