@@ -216,6 +216,11 @@ p { max-width: 62ch; }
 }
 @media (max-width: 559px) { .nav-status { display: none; } }
 
+.nav-lang { display: flex; align-items: center; gap: 6px; color: var(--dim); white-space: nowrap; }
+.nav-lang-on { color: var(--bone); }
+.nav-lang a { color: var(--dim); transition: color var(--t-hover) var(--e); }
+.nav-lang a:hover { color: var(--champagne); }
+
 /* ---- Hero -------------------------------------------------- */
 .hero {
   position: relative;
